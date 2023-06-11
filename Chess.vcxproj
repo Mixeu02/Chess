@@ -139,10 +139,12 @@
     <ClCompile Include="src\Board.cpp" />
     <ClCompile Include="src\Game.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Piece.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Board.h" />
     <ClInclude Include="src\Game.h" />
+    <ClInclude Include="src\Piece.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="openal32.dll" />

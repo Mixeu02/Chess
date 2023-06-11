@@ -8,6 +8,8 @@
 #include <SFML/Audio.hpp>
 #include <SFML/Network.hpp>
 
+enum PieceTypes { Pawn, Bishop, Knight, Rook, Queen, King };
+
 class Board
 {
 public:

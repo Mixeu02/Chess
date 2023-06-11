@@ -9,6 +9,7 @@
 #include <SFML/Network.hpp>
 
 #include "Board.h"
+#include "Piece.h"
 
 class Game
 {
@@ -28,6 +29,8 @@ private:
 	sf::Event ev;
 
 	Board board;
+
+	Piece pieces[32];
 
 	// Primeiro PascalCase! Obrigado Rina!
 	void InitWindow();

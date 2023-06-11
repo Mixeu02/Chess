@@ -1,1 +1,2 @@
 D:\Aplicativos\Visual Studio Community\Projetos\Chess\x64\Debug\Chess.exe
+D:\!GitHub\Chess\x64\Debug\Chess.exe

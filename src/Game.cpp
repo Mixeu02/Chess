@@ -3,6 +3,11 @@
 Game::Game()
 {
 	this->InitWindow();
+	
+	for (int i = 0; i < sizeof(this->pieces); i++)
+	{
+		this->pieces[i].InitPiece(PieceTypes::Pawn, sf::Vector2f(0.f + i, 0.f));
+	}
 }
 
 Game::~Game()
